@@ -151,7 +151,7 @@ const Certificates = () => {
   };
 
   return (
-    <section id="certificates" className="py-32 px-6 bg-white dark:bg-black relative overflow-hidden">
+    <section id="certificates" className="py-2 px-6 bg-white dark:bg-black relative overflow-hidden">
       {/* Background Decorative Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-20 left-10 w-72 h-72 bg-black/5 dark:bg-white/5 rounded-full blur-3xl"></div>

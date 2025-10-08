@@ -98,7 +98,7 @@ const AddProjectModal = ({ onClose, onProjectAdded }) => {
             />
           </div>
           
-          <div className="flex justify-end gap-3 mt-8 pt-6">
+          <div className="flex justify-end gap-3 mt-2 pt-2">
             <button 
               type="button" 
               onClick={onClose} 

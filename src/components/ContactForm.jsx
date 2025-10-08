@@ -21,7 +21,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section id="contact" className="py-32 px-6 bg-white dark:bg-black relative overflow-hidden">
+    <section id="contact" className="py-2 px-6 bg-white dark:bg-black relative overflow-hidden">
       {/* Background Decorative Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-black/5 dark:bg-white/5 rounded-full blur-3xl"></div>
