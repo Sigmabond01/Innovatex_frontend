@@ -133,7 +133,7 @@ const Profile = () => {
             <div className="w-16 h-px bg-black/20 dark:bg-white/20 mx-auto lg:mx-0"></div>
 
             {/* Bio */}
-            <p className="text-base md:text-lg text-black/50 dark:text-white/50 leading-relaxed font-light max-w-xl">
+            <p className="text-base md:text-lg text-black/50 dark:text-white/50 leading-relaxed font-bold max-w-xl">
               {profile.bio}
             </p>
 
@@ -143,7 +143,7 @@ const Profile = () => {
                 onClick={() => setIsModalOpen(true)}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="group relative inline-flex items-center gap-2 bg-black dark:bg-white text-white dark:text-black font-light text-sm py-3.5 px-8 rounded-full transition-all duration-300"
+                className="group relative inline-flex items-center gap-2 bg-black dark:bg-white text-white dark:text-black font-bold text-sm py-3.5 px-8 rounded-full transition-all duration-300"
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />

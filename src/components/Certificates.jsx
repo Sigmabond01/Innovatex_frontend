@@ -49,7 +49,7 @@ const AddCertificateModal = ({ onClose, onCertificateAdded }) => {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
               </svg>
             </div>
-            <h2 className="text-2xl font-light text-black dark:text-white">Add Certificate</h2>
+            <h2 className="text-4xl font-bold text-black dark:text-white">Add Certificate</h2>
           </div>
           <button onClick={onClose} className="text-black/40 dark:text-white/40 hover:text-black dark:hover:text-white transition-colors p-2 hover:bg-black/5 dark:hover:bg-white/5 rounded-full">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>

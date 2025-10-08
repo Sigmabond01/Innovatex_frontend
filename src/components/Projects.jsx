@@ -46,7 +46,7 @@ const AddProjectModal = ({ onClose, onProjectAdded }) => {
       >
         <div className="flex items-center justify-between mb-8">
 
-          <h2 className="text-2xl font-light text-black dark:text-white">Add Project</h2>
+          <h2 className="text-2xl font-bold text-black dark:text-white">Add Project</h2>
           <button onClick={onClose} className="text-black/40 dark:text-white/40 hover:text-black dark:hover:text-white transition-colors">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={1.5}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -56,7 +56,7 @@ const AddProjectModal = ({ onClose, onProjectAdded }) => {
         
         <form onSubmit={handleSubmit} className="space-y-5">
           <div>
-            <label className="block text-xs font-light text-black/50 dark:text-white/50 mb-2 tracking-wide">Title</label>
+            <label className="block text-xs font-bold text-black/50 dark:text-white/50 mb-2 tracking-wide">Title</label>
             <input 
               type="text" 
               placeholder="Project name" 
