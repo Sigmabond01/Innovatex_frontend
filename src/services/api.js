@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // The URL where your backend server is running
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://innovatex-backend-dr9l.onrender.com';
 
 const apiClient = axios.create({
   baseURL: API_URL,
